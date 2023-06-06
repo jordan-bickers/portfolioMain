@@ -29,9 +29,12 @@
   position: relative;
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
+  font-size: 100px;
+  left: -90px;
+  top: -100px;
+  /* background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius); */
 }
 
 .code {
@@ -75,7 +78,7 @@
 .center {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: column;
   position: relative;
   padding: 4rem 0;
 }
@@ -210,12 +213,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
+  .logos {
+    /* filter: invert(1); */
   }
 
   .logo {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+
+  .centralText {
+    font-size: 50px;
   }
 }
 

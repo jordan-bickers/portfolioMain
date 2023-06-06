@@ -5,23 +5,32 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://www.linkedin.com/in/jordan-bickers-dev/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
+              src="/images_/linkedinImg.png"
+              alt="LinkedIn Logo"
+              className={styles.logos}
+              width={85}
+              height={85}
+              priority
+            />
+          </a>
+          <a
+            href="https://github.com/jordan-bickers"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/images_/githubImg.png"
+              alt="Github Logo"
+              className={styles.logos}
               width={100}
-              height={24}
+              height={100}
               priority
             />
           </a>
@@ -29,14 +38,12 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+        <p className={styles.centralText}>
+          Jordan Bickers
+        </p>
+        <p className={styles.centralText}>
+            Full-Stack Software Developer
+        </p>
       </div>
 
       <div className={styles.grid}>
